@@ -64,7 +64,22 @@
      1. 又叫静态区，跟堆一样，被所有的线程共享。包含所有的class和static变量
      2. 方法区中包含的都是在整个程序中永远唯一的元素
 
-6. [**接口与抽象类**]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md
+6. [接口与抽象类][1]
 
+7. 访问权限
+
+   |        | private | default | protected | public |
+| ------ | ------- | ------- | --------- | ------ |
+   | 当前类 | true    | true    | true      | true   |
+   | 同包   |         | true    | true      | true   |
+   | 子类   |         |         | true      | true   |
+   | 其他   |         |         |           | true   |
+   
+   注意：如果子类方法重写了父类的方法，那么子类中该方法的访问权限不允许低于父类的访问级别，这是因为需要保证在任何可以使用父类实例的地方都可以使用子类实例
+   
+   类的成员变量不能为public，因为这么做的话就失去了对这个变量修改行为的控制，客户端可以随意修改。
+   
+   [1]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md	"接口与抽象类"
+   
    
 
