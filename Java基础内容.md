@@ -65,7 +65,10 @@
      2. 方法区中包含的都是在整个程序中永远唯一的元素
 
 6. [接口与抽象类][1]
-[1]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md	"接口与抽象类"
+
+   [1]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md	"接口与抽象类"
+
+
 
 7. 访问权限
 
