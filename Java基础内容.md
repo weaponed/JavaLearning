@@ -66,7 +66,7 @@
 
 6. [接口与抽象类][1]
 
-<<<<<<< HEAD
+
 7. 访问权限
 
    |        | private | default | protected | public |
@@ -82,8 +82,6 @@
    
    [1]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md	"接口与抽象类"
    
-=======
-[1]: https://github.com/weaponed/JavaLearning/blob/master/%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3.md	"接口与抽象类"
->>>>>>> e1c905468e4266e581be66f8f0d572fccd4a5d97
+
    
 
